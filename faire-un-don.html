@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faire un don — Habitat et Humanisme</title>
+<meta name="description" content="Faites un don à Habitat et Humanisme : 75% déductible de vos impôts, pour loger et accompagner les personnes en difficulté.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-bar container">
+    <a href="index.html" class="logo">
+      <img src="assets/logo-habitat-humanisme.svg" alt="Habitat et Humanisme – Loger toutes les vies" class="logo-img">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li class="has-dropdown">
+          <a href="nous-connaitre.html">Nous connaître <span class="caret">▾</span></a>
+          <div class="dropdown">
+            <a href="nous-connaitre.html#raison-d-etre">Notre raison d'être</a>
+            <a href="nous-connaitre.html#mouvement">Le Mouvement</a>
+            <a href="nous-connaitre.html#gouvernance">Gouvernance</a>
+            <a href="nous-connaitre.html#publications">Comptes et publications</a>
+          </div>
+        </li>
+        <li class="has-dropdown">
+          <a href="notre-action.html">Notre action <span class="caret">▾</span></a>
+          <div class="dropdown">
+            <a href="notre-action.html#dons-legs">Dons et legs</a>
+            <a href="notre-action.html#location-solidaire">Location solidaire</a>
+            <a href="notre-action.html#finance-solidaire">Finance solidaire</a>
+            <a href="notre-action.html#philanthropie">Philanthropie et mécénat</a>
+          </div>
+        </li>
+        <li class="has-dropdown">
+          <a href="nous-soutenir.html">Nous soutenir <span class="caret">▾</span></a>
+          <div class="dropdown">
+            <a href="nous-soutenir.html#benevolat">Bénévolat</a>
+            <a href="nous-soutenir.html#carrieres">Carrières et emplois</a>
+            <a href="nous-soutenir.html#entreprises">Entreprises partenaires</a>
+          </div>
+        </li>
+        <li><a href="nous-rejoindre.html">Nous rejoindre</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="faire-un-don.html" class="btn btn-orange btn-sm nav-cta">Faire un don</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="donate-hero">
+    <div class="container">
+      <span class="eyebrow" style="justify-content:center;">Faire un don</span>
+      <h1>Quand travailler ne suffit plus pour se loger</h1>
+      <p class="lead" style="margin:0 auto;">En 20 ans, les loyers ont augmenté de 88% quand les salaires ne progressaient que de 13%. Pour des étudiants, jeunes actifs, familles ou seniors, l'emploi ne garantit plus un logement digne. Votre don change concrètement la donne.</p>
+      <div class="stat-row">
+        <div><strong>25 600+</strong><span>personnes logées &amp; accompagnées</span></div>
+        <div><strong>12 000+</strong><span>logements produits ou mobilisés</span></div>
+        <div><strong>6 000+</strong><span>bénévoles engagés</span></div>
+        <div><strong>1 500</strong><span>logements solidaires visés d'ici 2028</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="urgency-banner">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="13"/><line x1="12" y1="16.2" x2="12" y2="16.3"/></svg></span>
+        <div>
+          <h3>L'hiver arrive, et avec lui, le froid pour les plus fragiles</h3>
+          <p>Chaque année à cette période, les demandes de mise à l'abri augmentent fortement. Sans solution de logement, des familles et des personnes isolées risquent de passer l'hiver dehors ou dans des conditions indignes. Votre don aujourd'hui peut leur éviter cela.</p>
+        </div>
+      </div>
+
+      <div class="section-head">
+        <span class="eyebrow">Choisissez votre don</span>
+        <h2>Chaque montant a un impact concret</h2>
+        <p>Grâce à la réduction d'impôt, votre effort réel est bien inférieur au montant donné.</p>
+      </div>
+
+      <div class="amount-grid">
+        <div class="amount-card" data-amount="50">
+          <div class="amount">50€</div>
+          <div class="after-tax">soit 12,50€ après réduction</div>
+          <p>Finance un repas ou un atelier collectif pour nos locataires.</p>
+        </div>
+        <div class="amount-card selected" data-amount="100">
+          <div class="amount">100€</div>
+          <div class="after-tax">soit 25€ après réduction</div>
+          <p>Aide une famille lors de son installation dans un nouveau logement.</p>
+        </div>
+        <div class="amount-card" data-amount="200">
+          <div class="amount">200€</div>
+          <div class="after-tax">soit 50€ après réduction</div>
+          <p>Contribue à l'insertion sociale et professionnelle d'un locataire.</p>
+        </div>
+        <div class="amount-card custom">
+          <div class="amount">Libre</div>
+          <div class="field" style="margin-top:8px;">
+            <input type="number" id="custom-amount" placeholder="Montant en €" min="1">
+          </div>
+          <p>Choisissez le montant de votre engagement.</p>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-bottom:56px;">
+        <a href="#" class="btn btn-orange" style="padding:16px 44px; font-size:1.05rem;">Je fais mon don</a>
+        <p class="reassurance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.1V12a9 9 0 1 1-5.3-8.2"/><polyline points="21 4 12 13.2 9 10.2"/></svg> 100% sécurisé · déductible de vos impôts · reçu fiscal envoyé immédiatement</p>
+      </div>
+
+      <div class="tax-box">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16"/><line x1="12" y1="7.7" x2="12" y2="7.8"/></svg></span>
+        <p style="margin:0;"><strong>Déduction fiscale :</strong> votre don est déductible à 75% de vos impôts dans la limite de 2 000€, puis à 66% au-delà, dans la limite de 20% de votre revenu imposable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cream">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Derrière chaque don, une vie</span>
+        <h2>Ils dormaient dehors. Aujourd'hui, ils ont un chez-eux.</h2>
+        <p>Ce ne sont pas des chiffres : ce sont des histoires que votre don rend possibles.</p>
+      </div>
+      <div class="stories-grid">
+        <div class="story-card">
+          <div class="avatar">L</div>
+          <blockquote>« Je me sens revivre. »</blockquote>
+          <p class="ctx">Agent de sécurité incendie, Lionel a vécu plusieurs semaines dans sa voiture avec ses deux fils après une séparation. Il bénéficie aujourd'hui d'un logement stable et de l'accompagnement d'une travailleuse sociale.</p>
+          <cite>— Lionel, 41 ans, papa de deux garçons</cite>
+        </div>
+        <div class="story-card">
+          <div class="avatar">S</div>
+          <blockquote>« Mes enfants ont enfin une chambre à eux. »</blockquote>
+          <p class="ctx">Après un licenciement, Samira s'est retrouvée seule avec deux enfants dans un hôtel social. Un logement accompagné lui a permis de se stabiliser et de retrouver un emploi en six mois.</p>
+          <cite>— Samira, 34 ans, maman de deux enfants</cite>
+        </div>
+        <div class="story-card">
+          <div class="avatar">R</div>
+          <blockquote>« Je n'étais plus seul. »</blockquote>
+          <p class="ctx">À 78 ans, Robert vivait isolé dans un logement devenu trop grand et trop coûteux. Grâce à une résidence intergénérationnelle, il a retrouvé un cadre de vie adapté et du lien social au quotidien.</p>
+          <cite>— Robert, 78 ans, résident solidaire</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-banner">
+        <div>
+          <h2>La prochaine histoire, c'est peut-être grâce à vous</h2>
+          <p>Un don, même modeste, peut être le point de départ d'une nouvelle vie pour une personne comme Lionel, Samira ou Robert.</p>
+        </div>
+        <a href="#" class="btn btn-white">Je fais un don</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <img src="assets/logo-habitat-humanisme.svg" alt="Habitat et Humanisme – Loger toutes les vies" class="logo-img">
+        </a>
+        <p>Depuis plus de 35 ans, nous produisons et mobilisons des logements accompagnés pour permettre à chacun de se reconstruire par l'habitat.</p>
+        <div class="social-row">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Nous connaître</h4>
+        <ul>
+          <li><a href="nous-connaitre.html#raison-d-etre">Notre raison d'être</a></li>
+          <li><a href="nous-connaitre.html#mouvement">Le Mouvement</a></li>
+          <li><a href="nous-connaitre.html#gouvernance">Gouvernance</a></li>
+          <li><a href="nous-connaitre.html#publications">Comptes et publications</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Notre action</h4>
+        <ul>
+          <li><a href="notre-action.html#dons-legs">Dons et legs</a></li>
+          <li><a href="notre-action.html#location-solidaire">Location solidaire</a></li>
+          <li><a href="notre-action.html#finance-solidaire">Finance solidaire</a></li>
+          <li><a href="notre-action.html#philanthropie">Philanthropie et mécénat</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Nous soutenir</h4>
+        <ul>
+          <li><a href="nous-soutenir.html#benevolat">Bénévolat</a></li>
+          <li><a href="nous-soutenir.html#carrieres">Carrières et emplois</a></li>
+          <li><a href="nous-soutenir.html#entreprises">Entreprises partenaires</a></li>
+          <li><a href="faire-un-don.html">Faire un don</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Nous contacter</a></li>
+          <li><a href="nous-rejoindre.html">Nous rejoindre</a></li>
+          <li><a href="#">Espace presse</a></li>
+          <li><a href="#">Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Habitat et Humanisme — 69 chemin de Vassieux, 69647 Caluire-et-Cuire · +33 (0)4 72 27 42 58</span>
+      <div class="legal-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">FAQ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
